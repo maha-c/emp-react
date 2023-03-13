@@ -44,8 +44,7 @@ export function UpdateEmployee({ employee }: UpdateEmployeeProps) {
 
   return (
     <>
-  
-      <h3>Update Employee: {employee.firstName} {employee.lastName}</h3>
+      <h3>Update Employee{employee.firstName} {employee.lastName}</h3>
 
       <label htmlFor="firstName">First Name</label>
       <input
