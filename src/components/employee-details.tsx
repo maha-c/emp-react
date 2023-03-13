@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import { useState, useEffect } from "react";
-import { useMutation, useQueryClient } from "react-query";
+import { useQueryClient } from "react-query";
 import { getEmployeeById, updateEmployee, deleteEmployee, Employee } from "../api/employee-request";
 
 type EmployeeDetailsProps = {

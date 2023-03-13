@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "react-query";
-import { Employee, getAllEmployees, getEmployeeById, updateEmployee } from "../api/employee-request";
+import { Employee, getAllEmployees, getEmployeeById } from "../api/employee-request";
 import { EmployeeDetails } from "./employee-details";
 
 export function GetEmployees() {
